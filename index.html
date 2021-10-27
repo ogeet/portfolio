@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="assets/fontawesome-pro-5/css/all.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-custom sticky-top">
+  <nav class="navbar navbar-expand-lg bg-custom sticky-top" id="navbar-example2">
     <div class="container fluid-text">
       <a class="navbar-brand text-white font-style2" href="#" style="font-size: 1.6rem;">Portfolio</a>
       <button 
@@ -26,7 +26,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
-          <a class="nav-link text-white" href="#">ABOUT</a>
+          <a class="nav-link text-white" href="#about">ABOUT</a>
           <a class="nav-link text-white" href="#">SERVICES</a>
           <a class="nav-link text-white" href="#">WORK</a>
           <a class="nav-link text-white" href="#">CONTACT</a>
@@ -42,8 +42,8 @@
     <span class="wrap"></span>
   </div>
 </div>
-<h2 class="text-center mt-5">About me</h2>
-<div class="container">
+<div class="container scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+  <h2 class="text-center mt-5" id="about">About me</h2>
 <div class="bg-contain p-4">
   <div class="row">
     <div class="col-md-6 mt-3 mb-3">
