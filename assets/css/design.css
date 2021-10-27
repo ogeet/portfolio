@@ -1,6 +1,9 @@
 body{
 	background-color: lightgrey;
 }
+.bg-custom{
+	background-color: rgba(0, 0, 0, 0.9);
+}
 .overlay{
 	background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
