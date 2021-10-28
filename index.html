@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/design.css">
   <link rel="stylesheet" type="text/css" href="assets/fontawesome-pro-5/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-custom" id="navbar-example2">
@@ -46,7 +47,7 @@
   <div class="bg-contain p-4 mt-5">
     <div class="row">
       <div class="col-md-6 mt-3 mb-3">
-        <div class="row">
+        <div class="row" data-aos="fade-in">
           <div class="col-md-6 mb-3">
             <center>
               <div class="img-box rounded-circle position-relative">
@@ -61,7 +62,7 @@
             <p><span>Phone:</span> +234 902 970 0602</p>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-down">
           <p>HTML 90%</p>
           <div class="rate-container">
             <div class="rate" style="width: 90%"></div>
@@ -84,7 +85,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 mb-3">
+      <div class="col-md-6 mb-3" data-aos="slide-down">
         <h2 class="" id="about">About me</h2>
         <div class="line-deco"></div>
         <p class="fs-5">I am a Statistics student in the Federal University of Agriculture Abeokuta(FUNAAB). Solving practical problems has always been something I find interesting. I am an expert in applying programming skills to solve complex challenges. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages and frameworks like BootStrap and CodeIgniter4. Most of my experience lies in full stack development. Responsible for applying technical know-how to manage and operate IT hardware, software and application solutions. On a personal level, I have strong listening skills needed to acquire and comprehend a user’s exact requirement. I come to you with a track record of continually improving the way software works. Looking forward to working with you. Cheers.</p>
@@ -95,7 +96,7 @@
   <center><div class="front-line mb-3"></div></center>
   <div class="row">
     <div class="col-md-4 mb-3">
-      <div class="card p-4" style="align-items: center;">
+      <div class="card p-4" style="align-items: center;" data-aos="flip-down">
         <div class="rounded-circle position-relative icon-box mb-3">
           <span class="fa fa-globe icon-styling position-absolute start-50 top-50 translate-middle"></span>
         </div>
@@ -109,7 +110,7 @@
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <div class="card p-4" style="align-items: center;">
+      <div class="card p-4" style="align-items: center;" data-aos="flip-down">
         <div class="rounded-circle position-relative icon-box mb-3">
           <span class=" fa fa-binoculars icon-styling position-absolute start-50 top-50 translate-middle"></span>
         </div>
@@ -123,7 +124,7 @@
       </div>
     </div>
     <div class="col-md-4 mb-3">
-      <div class="card p-4" style="align-items: center;">
+      <div class="card p-4" style="align-items: center;" data-aos="flip-down">
         <div class="rounded-circle position-relative icon-box mb-3">
           <span class="fa fa-database icon-styling position-absolute start-50 top-50 translate-middle"></span>
         </div>
@@ -141,5 +142,9 @@
 <button onclick="topFunction()" id="goUpBtn" title="Go to top"><span class="far fa-arrow-up"></span></button>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/design.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
