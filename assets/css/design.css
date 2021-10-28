@@ -124,13 +124,13 @@ div.fluid-text a{
 
 div.rate-container{
 	width: 100%;
-	height: 15px;
+	height: 12px;
 	background-color: grey;
 	margin-bottom: 3%;
 }
 
 .rate{
-	height: 15px;
+	height: 12px;
 	background-color: green;
 }
 div.styling span{
