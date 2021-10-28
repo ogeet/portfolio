@@ -1,6 +1,27 @@
 body{
 	background-color: #f5f5f5;
 }
+#goUpBtn {
+  display: none;/* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(255, 255, 255); /* Set a background color */
+  color: green; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+  transition: 1s;
+  border-radius: 20%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+#goUpBtn:hover{
+	background-color: green;
+	color: white;
+}
 .bg-custom{
 	background-color: rgba(0, 0, 0, 0.9);
 }
@@ -27,6 +48,12 @@ body{
     background-size: cover;
     background-position: center center;
     padding-top: 0%;
+}
+
+@media only screen and (max-width: 700px){
+	.bg-image{
+	background-attachment: scroll;
+	}
 }
 
 .img-text{
@@ -59,10 +86,10 @@ div.fluid-text a{
 	src: url('../font/Rubik_Beastly/RubikBeastly-Regular.ttf');
 }
 
-/*@font-face{
-	font-family: fontstyle3;
-	src: url('../font/Rubik_Beastly/RubikBeastly-Regular.ttf');
-}*/
+@font-face{
+	font-family: font_style;
+	src: url('../font/Ultra/Ultra-Regular.ttf');
+}
 
 
 .font-style{
@@ -73,6 +100,12 @@ div.fluid-text a{
 	font-family: fontstyle2;
 	font-size: 30px;
 }
+
+.font_style{
+	font-family: font_style;
+	font-size: 2.2rem;
+}
+
 .bg-contain{
 	background-color: #ffffff;
 	box-shadow: 1px 2px 3px 3px lightgrey;
@@ -103,4 +136,36 @@ div.rate-container{
 div.styling span{
 	font-weight: bold;
 	font-size: 1.1rem;
+}
+.line-deco{
+	width: 16%;
+	height: 4px;
+	background-color: green;
+}
+.front-line{
+	align-items: center;
+	width: 5%;
+	height: 4px;
+	background-color: green;
+}
+@media only screen and (max-width: 700px){
+	.front-line{
+		width: 10%;
+	}
+}
+.icon-styling{
+	font-size: 2.5rem;
+}
+.icon-box{
+	width: 120px; 
+	height: 120px; 
+	border: 8px solid green;
+	cursor: pointer;
+	color: green;
+	transition: 1s;
+}
+.icon-box:hover{
+	background-color: green;
+	color: white;
+	border: 8px solid lightgreen;
 }
