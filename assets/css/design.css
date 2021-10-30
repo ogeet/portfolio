@@ -170,6 +170,21 @@ div.styling span{
 	transition: 1s;
 }
 
+.icon_box{
+	width: 120px; 
+	height: 120px; 
+	border: 8px solid lightgreen;
+	background-color: green;
+	color: white;
+	transition: 1s;
+}
+
+.icon_box:hover{
+	background-color: white;
+	color: green;
+	border: 8px solid green;
+}
+
 .icon-box:hover{
 	background-color: green;
 	color: white;
